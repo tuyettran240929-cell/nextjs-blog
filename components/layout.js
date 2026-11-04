@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './layout.module.css';
 
-const name = 'Your Name';
+const name = 'Tran Thi Thu Tuyet';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
