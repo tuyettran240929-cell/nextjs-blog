@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './layout.module.css';
+const basePath = '/nextjs-blog';
 
 const name = 'Tran Thi Thu Tuyet';
 export const siteTitle = 'Next.js Sample Website';
@@ -19,7 +20,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src={`${basePath}/images/profile.jpg`}
               className={styles.borderCircle}
               height={144}
               width={144}
